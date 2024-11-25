@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 
 public class PlayerCamera : MonoBehaviour
@@ -18,6 +19,7 @@ public class PlayerCamera : MonoBehaviour
 
     private void Update()
     {
+        Cursor.lockState.Equals(CursorLockMode.Locked);
         HandleCameraRotation();
     }
 
