@@ -9,12 +9,22 @@ public class PlaneMovement : MonoBehaviour
     public float maxThrottle = 200f;
     public float responsiveness = 10f;
     public float lift = 135f;
-    public float brakeRate = 0.5f; // Tasa de frenado al presionar C
+    public float brakeRate = 0.5f;
 
     private float throttle;
     private float roll;
     private float pitch;
     private float yaw;
+
+    public float GetThrottle()
+    {
+        return throttle / 100f;
+    }
+
+    public void SetThrottle(float newThrottle)
+    {
+        throttle = Mathf.Clamp(newThrottle, 0f, 100f);
+    }
 
     private float responseModifier
     {
@@ -47,7 +57,7 @@ public class PlaneMovement : MonoBehaviour
         else if (Input.GetKey(KeyCode.LeftControl))
             throttle -= throttleIncrement;
         else if (Input.GetKey(KeyCode.C))
-            throttle -= brakeRate * Time.deltaTime; // Reduce gradualmente al presionar C
+            throttle -= brakeRate * Time.deltaTime;
 
         throttle = Mathf.Clamp(throttle, 0f, 100f);
     }
