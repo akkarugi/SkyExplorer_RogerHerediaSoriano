@@ -83,7 +83,7 @@ public class PlaneMovement : MonoBehaviour
 
     private void UpdateHUD()
     {
-        hud.text = "Throttle: " + throttle.ToString("F0") + "%\n";
+        hud.text = "Acceleration: " + throttle.ToString("F0") + "%\n";
         hud.text += "Speed: " + (rb.velocity.magnitude * 3.6f).ToString("F0") + " km/h\n";
         hud.text += "Altitude: " + transform.position.y.ToString("F0") + " m";
     }

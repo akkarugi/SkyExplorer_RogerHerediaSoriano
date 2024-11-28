@@ -19,6 +19,7 @@ public class ChestController : MonoBehaviour
             // Detener el sonido de proximidad y reproducir el sonido de abrir el cofre
             playerProximity.StopProximityAudioOnOpen();
             playerProximity.PlayOpenChestAudio();
+            Destroy(gameObject, 5);
         }
     }
 
