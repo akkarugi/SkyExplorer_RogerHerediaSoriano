@@ -11,10 +11,10 @@ public class PlaneMovement : MonoBehaviour
     public float lift = 135f;
     public float brakeRate = 0.5f;
 
-    private float throttle;
-    private float roll;
-    private float pitch;
-    private float yaw;
+    public float throttle;
+    public float roll;
+    public float pitch;
+    public float yaw;
 
     public float GetThrottle()
     {

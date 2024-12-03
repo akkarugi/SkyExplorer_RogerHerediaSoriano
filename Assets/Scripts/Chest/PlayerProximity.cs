@@ -48,8 +48,7 @@ public class PlayerProximity : MonoBehaviour
     {
         if (proximityAudio != null)
         {
-            float distance = Vector3.Distance(transform.position, Camera.main.transform.position);
-            proximityAudio.volume = Mathf.Clamp01(1 - Mathf.InverseLerp(0, maxDistance, distance));
+            
         }
     }
 
