@@ -6,7 +6,7 @@ public class Map_Collectables : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public AudioSource collectSound;
     private int score = 0;
-    private bool isNear = false;
+ 
 
     void Update()
     {

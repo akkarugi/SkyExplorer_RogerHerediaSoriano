@@ -6,8 +6,17 @@ public class ChestActivator : MonoBehaviour
     public Transform player;
     public Collider canOpenCollider;
     public ChestController chestController;
+    public GameObject canvas;
 
     private bool hasOpenedChest = false;
+
+    private void Start()
+    {
+        if (canvas != null)
+        {
+            canvas.SetActive(false);
+        }
+    }
 
     private void Update()
     {
@@ -23,6 +32,7 @@ public class ChestActivator : MonoBehaviour
                 chestController.OpenChest();
                 Destroy(openButtonSprite);
                 hasOpenedChest = true;
+                StartCoroutine(ShowCanvasAfterDelay(2f));
             }
         }
         else
@@ -51,9 +61,23 @@ public class ChestActivator : MonoBehaviour
 
     private void LookAtPlayer(GameObject sprite)
     {
-        Vector3 direction = (player.position - sprite.transform.position).normalized;
-        Quaternion lookRotation = Quaternion.LookRotation(direction);
-        lookRotation *= Quaternion.Euler(0, 180, 0); // Mirar al jugador hacia la derecha
-        sprite.transform.rotation = lookRotation;
+        if (sprite != null)
+        {
+            Vector3 direction = (player.position - sprite.transform.position).normalized;
+            Quaternion lookRotation = Quaternion.LookRotation(direction);
+            lookRotation *= Quaternion.Euler(0, 180, 0);
+            sprite.transform.rotation = lookRotation;
+        }
+    }
+
+    private System.Collections.IEnumerator ShowCanvasAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        if (canvas != null)
+        {
+            canvas.SetActive(true);
+        }
     }
 }
+
