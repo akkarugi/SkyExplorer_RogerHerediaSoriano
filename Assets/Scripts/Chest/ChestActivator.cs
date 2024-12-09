@@ -7,6 +7,7 @@ public class ChestActivator : MonoBehaviour
     public Collider canOpenCollider;
     public ChestController chestController;
     public GameObject canvas;
+    public ChestCounterUI chestCounterUI;
 
     private bool hasOpenedChest = false;
 
@@ -32,6 +33,7 @@ public class ChestActivator : MonoBehaviour
                 chestController.OpenChest();
                 Destroy(openButtonSprite);
                 hasOpenedChest = true;
+                chestCounterUI?.IncrementChestCount();
                 StartCoroutine(ShowCanvasAfterDelay(2f));
             }
         }
@@ -80,4 +82,3 @@ public class ChestActivator : MonoBehaviour
         }
     }
 }
-

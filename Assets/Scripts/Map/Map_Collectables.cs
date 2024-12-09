@@ -5,7 +5,7 @@ public class Map_Collectables : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
     public AudioSource collectSound;
-    private int score = 0;
+    
  
 
     void Update()
@@ -18,8 +18,8 @@ public class Map_Collectables : MonoBehaviour
         if (other.CompareTag("Map"))
         {
             collectSound.Play();
-            score++;
-            scoreText.text = "Map pieces: " + score;
+            GameManager.Instance.mapsCollected++;
+            scoreText.text = "Map pieces: " + GameManager.Instance.mapsCollected;
             Destroy(other.gameObject);
         }
        
