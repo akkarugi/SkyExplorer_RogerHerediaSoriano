@@ -21,7 +21,7 @@ public class ChestCounterUI : MonoBehaviour
     {
         if (chestsOpenedText != null)
         {
-            chestsOpenedText.text = "Memories: " + GameManager.Instance.chestsOpened.ToString();
+            chestsOpenedText.text = "Memories: " + GameManager.Instance.chestsOpened.ToString() + " / 3";
         }
     }
 }

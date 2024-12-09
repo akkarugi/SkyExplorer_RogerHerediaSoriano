@@ -35,7 +35,7 @@ public class FuelSystem : MonoBehaviour
             DecreaseThrottle();
         }
 
-        if (Input.GetKeyDown(KeyCode.Z)) // Si se pulsa Z, recargar el combustible
+        if (Input.GetKeyDown(KeyCode.Z)) 
         {
             RefillFuel();
         }
@@ -69,7 +69,7 @@ public class FuelSystem : MonoBehaviour
         }
     }
 
-    private void RefillFuel()
+    public void RefillFuel()
     {
         currentFuel = maxFuel;
         UpdateFuelUI();

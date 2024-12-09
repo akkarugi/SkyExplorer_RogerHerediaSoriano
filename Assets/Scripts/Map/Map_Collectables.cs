@@ -19,7 +19,7 @@ public class Map_Collectables : MonoBehaviour
         {
             collectSound.Play();
             GameManager.Instance.mapsCollected++;
-            scoreText.text = "Map pieces: " + GameManager.Instance.mapsCollected;
+            scoreText.text = "Map pieces: " + GameManager.Instance.mapsCollected + " / ?";
             Destroy(other.gameObject);
         }
        

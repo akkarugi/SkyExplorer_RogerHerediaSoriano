@@ -8,6 +8,7 @@ public class ChestActivator : MonoBehaviour
     public ChestController chestController;
     public GameObject canvas;
     public ChestCounterUI chestCounterUI;
+    public FuelSystem fuelSystem; // Referencia al sistema de combustible
 
     private bool hasOpenedChest = false;
 
@@ -34,6 +35,7 @@ public class ChestActivator : MonoBehaviour
                 Destroy(openButtonSprite);
                 hasOpenedChest = true;
                 chestCounterUI?.IncrementChestCount();
+                fuelSystem.RefillFuel(); 
                 StartCoroutine(ShowCanvasAfterDelay(2f));
             }
         }
