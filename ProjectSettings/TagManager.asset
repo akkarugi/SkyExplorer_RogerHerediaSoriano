@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Plane
   - Map
+  - Devi
   layers:
   - Default
   - TransparentFX
