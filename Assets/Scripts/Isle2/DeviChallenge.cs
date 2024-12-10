@@ -52,12 +52,12 @@ public class DeviChallenge : MonoBehaviour
 
     public void StartChallenge()
     {
-        ringsContainer.SetActive(true);
-        timerText.gameObject.SetActive(true);
+        ringsContainer.SetActive(true); // Activa el Empty con los aros y el temporizador.
+        timerText.gameObject.SetActive(true); // Activa el texto del temporizador.
         remainingTime = challengeDuration;
         collectiblesRemaining = ringsContainer.transform.childCount;
         challengeActive = true;
-        playerOnPlane = false; // Evita activar el desafío más de una vez.
+        playerOnPlane = false; // Evita que el desafío se active más de una vez.
     }
 
     public void CollectItem(GameObject collectible)
@@ -81,8 +81,8 @@ public class DeviChallenge : MonoBehaviour
     private void EndChallenge(bool success)
     {
         challengeActive = false;
-        timerText.gameObject.SetActive(false);
-        ringsContainer.SetActive(false);
+        timerText.gameObject.SetActive(false); // Desactiva el temporizador.
+        ringsContainer.SetActive(false); // Desactiva los aros.
 
         if (success && objectToDestroy != null)
         {
