@@ -6,7 +6,7 @@ public class AudioSettings : MonoBehaviour
 {
     public static AudioSettings audioSettings;
 
-    [Header("Information - Read Only from inspector")]
+    
     [SerializeField]
     private float musicVolume;
     [SerializeField]
