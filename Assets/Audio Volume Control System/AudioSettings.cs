@@ -15,8 +15,6 @@ public class AudioSettings : MonoBehaviour
     float musicDefaultVolume=0.7f;
     float sfxDefaultVolume = 0.9f;
 
-    string musicAudioSourcesTag ="Music-AudioSource";
-    string sfxAudioSourcesTag="SFX-AudioSource";
 
     string musicVolumeDataName = "music-volume";
     string sfxVolumeDataName = "sfx-volume";
