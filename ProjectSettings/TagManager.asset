@@ -7,6 +7,7 @@ TagManager:
   - Plane
   - Map
   - Devi
+  - PortalAudio
   layers:
   - Default
   - TransparentFX
