@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class PauseMenuController : MonoBehaviour
 {
@@ -9,6 +10,10 @@ public class PauseMenuController : MonoBehaviour
     [SerializeField] private Transform isle1RespawnPoint;
     [SerializeField] private Transform isle2RespawnPoint;
     [SerializeField] private Transform isle3RespawnPoint;
+
+   
+
+    [SerializeField] private Canvas[] activeCanvases;
 
     private Transform player;
     private bool isPaused = false;
@@ -42,6 +47,16 @@ public class PauseMenuController : MonoBehaviour
         isPaused = true;
         Time.timeScale = 0f;
         pauseMenuCanvas.SetActive(true);
+        
+
+        foreach (Canvas canvas in activeCanvases)
+        {
+            if (canvas != null && canvas.gameObject.activeSelf)
+            {
+                canvas.gameObject.SetActive(false);
+            }
+        }
+
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
     }
@@ -51,6 +66,16 @@ public class PauseMenuController : MonoBehaviour
         isPaused = false;
         Time.timeScale = 1f;
         pauseMenuCanvas.SetActive(false);
+
+
+        foreach (Canvas canvas in activeCanvases)
+        {
+            if (canvas != null)
+            {
+                canvas.gameObject.SetActive(true);
+            }
+        }
+
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
@@ -58,6 +83,15 @@ public class PauseMenuController : MonoBehaviour
     public void ExitToMainMenu()
     {
         Time.timeScale = 1f;
+      
+        foreach (Canvas canvas in activeCanvases)
+        {
+            if (canvas != null)
+            {
+                canvas.gameObject.SetActive(false);
+            }
+        }
+
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
         SceneManager.LoadScene("MainMenu");
@@ -84,7 +118,6 @@ public class PauseMenuController : MonoBehaviour
     {
         if (player != null)
         {
-            
             player.position = respawnPosition;
         }
     }
