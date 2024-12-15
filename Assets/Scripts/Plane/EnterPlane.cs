@@ -65,7 +65,7 @@ public class Enter_Plane : MonoBehaviour
         eSprite.SetActive(false);
     }
 
-    private void ExitPlane()
+    public void ExitPlane()
     {
         isPlayerInPlane = false;
         player.SetActive(true);

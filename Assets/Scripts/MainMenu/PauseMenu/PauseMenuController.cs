@@ -5,6 +5,12 @@ public class PauseMenuController : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenuCanvas;
 
+    [Header("Isle Respawn Settings")]
+    [SerializeField] private Transform isle1RespawnPoint;
+    [SerializeField] private Transform isle2RespawnPoint;
+    [SerializeField] private Transform isle3RespawnPoint;
+
+    private Transform player;
     private bool isPaused = false;
 
     private void Start()
@@ -12,6 +18,8 @@ public class PauseMenuController : MonoBehaviour
         pauseMenuCanvas.SetActive(false);
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     private void Update()
@@ -53,5 +61,31 @@ public class PauseMenuController : MonoBehaviour
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
         SceneManager.LoadScene("MainMenu");
+    }
+
+    public void Isle1()
+    {
+        RespawnPlayer(isle1RespawnPoint.position);
+    }
+
+    public void Isle2()
+    {
+        RespawnPlayer(isle2RespawnPoint.position);
+        GameManager.Instance.chestsOpened = 1;
+    }
+
+    public void Isle3()
+    {
+        RespawnPlayer(isle3RespawnPoint.position);
+        GameManager.Instance.chestsOpened = 2;
+    }
+
+    private void RespawnPlayer(Vector3 respawnPosition)
+    {
+        if (player != null)
+        {
+            
+            player.position = respawnPosition;
+        }
     }
 }
