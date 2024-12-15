@@ -1,11 +1,13 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Portal : MonoBehaviour
 {
-    public GameObject interactKeySprite; // El sprite de la tecla E
-    public string targetScene = "Platform Level"; // La escena a cargar
-    public AudioSource teleportSound; // Sonido de teletransporte
+    public GameObject interactKeySprite;
+    public Transform teleportTarget;
+    public AudioSource teleportSound;
+    public GameObject objectToDeactivate;
+    public Camera targetCamera;
+    public Material newSkybox;
 
     private Transform player;
     private bool isPlayerInRange;
@@ -20,16 +22,15 @@ public class Portal : MonoBehaviour
     {
         if (isPlayerInRange)
         {
-            // Hacer que el sprite de la tecla E mire al jugador
             Vector3 direction = (player.position - interactKeySprite.transform.position).normalized;
-            direction.y = 0; // Mantener solo la rotación en el plano horizontal
+            direction.y = 0;
             interactKeySprite.transform.rotation = Quaternion.LookRotation(direction) * Quaternion.Euler(0, 180, 0);
 
-            // Detectar si se presiona la tecla E
             if (Input.GetKeyDown(KeyCode.E))
             {
-                teleportSound.Play();
-                SceneManager.LoadScene(targetScene);
+                TeleportPlayer();
+                DeactivateObject();
+                ChangeCameraSkybox();
             }
         }
     }
@@ -49,6 +50,40 @@ public class Portal : MonoBehaviour
         {
             isPlayerInRange = false;
             interactKeySprite.SetActive(false);
+        }
+    }
+
+    private void TeleportPlayer()
+    {
+        if (teleportSound != null)
+        {
+            teleportSound.Play();
+        }
+
+        if (teleportTarget != null && player != null)
+        {
+            player.position = teleportTarget.position;
+        }
+    }
+
+    private void DeactivateObject()
+    {
+        if (objectToDeactivate != null)
+        {
+            objectToDeactivate.SetActive(false);
+        }
+    }
+
+    private void ChangeCameraSkybox()
+    {
+        if (targetCamera != null && newSkybox != null)
+        {
+            Skybox cameraSkybox = targetCamera.GetComponent<Skybox>();
+            if (cameraSkybox == null)
+            {
+                cameraSkybox = targetCamera.gameObject.AddComponent<Skybox>();
+            }
+            cameraSkybox.material = newSkybox;
         }
     }
 }

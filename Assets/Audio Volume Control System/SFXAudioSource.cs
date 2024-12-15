@@ -14,8 +14,5 @@ public class SFXAudioSource : MonoBehaviour
         audioSettings.AddMeToSFXAudioSources(audioSource);
     }
 
-    void OnDestroy()
-    {
-        audioSettings.RemoveMeFromSFXAudioSources(audioSource);
-    }
+
 }

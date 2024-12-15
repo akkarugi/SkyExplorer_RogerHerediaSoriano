@@ -14,8 +14,5 @@ public class MusicAudioSource : MonoBehaviour
         audioSettings.AddMeToMusicAudioSources(audioSource);
     }
 
-    void OnDestroy()
-    {
-        audioSettings.RemoveMeFromMusicAudioSources(audioSource);
-    }
+  
 }
