@@ -97,6 +97,13 @@ public class PauseMenuController : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
+    private void Tutorial()
+    {
+        Time.timeScale = 1f;
+
+        
+        SceneManager.LoadScene("Tutorial");
+    }
     public void Isle1()
     {
         RespawnPlayer(isle1RespawnPoint.position);
