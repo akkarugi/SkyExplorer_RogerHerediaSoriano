@@ -3,29 +3,19 @@ using UnityEngine.SceneManagement;
 
 public class CircleManager : MonoBehaviour
 {
-    private int totalCircles;
+    public GameObject[] circles;
     private int circlesCleared = 0;
-
-    void Start()
-    {
-        totalCircles = GameObject.FindGameObjectsWithTag("Circle").Length;
-    }
 
     void Update()
     {
-        if (circlesCleared >= totalCircles)
+        if (circlesCleared >= circles.Length)
         {
-            ChangeScene();
+            SceneManager.LoadScene("Level");
         }
     }
 
     public void CircleCleared()
     {
         circlesCleared++;
-    }
-
-    private void ChangeScene()
-    {
-        SceneManager.LoadScene("Level");
     }
 }

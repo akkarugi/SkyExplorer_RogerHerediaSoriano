@@ -148,12 +148,25 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1.8323159, y: 1.6613009, z: 0.24841295}
   m_Center: {x: 0.06747594, y: 0.07676032, z: -0.0370281}
+--- !u!114 &26795383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26795380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2d10f3bc35837b48aa2f9dba8efe9f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 1911294508}
 --- !u!1 &43441547
 GameObject:
   m_ObjectHideFlags: 0
@@ -2304,7 +2317,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 26b5270452129d842bd6a04ecce82df9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 149.4
+      value: 384.3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 26b5270452129d842bd6a04ecce82df9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2312,7 +2325,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 26b5270452129d842bd6a04ecce82df9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.7
+      value: 10.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 26b5270452129d842bd6a04ecce82df9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2348,7 +2361,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 03832e818cb28f0438ad1b6266ef7b57, type: 2}
     - target: {fileID: 919132149155446097, guid: 26b5270452129d842bd6a04ecce82df9, type: 3}
       propertyPath: m_Name
-      value: base
+      value: CIrcle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 26b5270452129d842bd6a04ecce82df9, type: 3}
+      propertyPath: m_TagString
+      value: CIrcle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2357,6 +2374,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 26b5270452129d842bd6a04ecce82df9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 26795382}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 26b5270452129d842bd6a04ecce82df9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 26795383}
   m_SourcePrefab: {fileID: 100100000, guid: 26b5270452129d842bd6a04ecce82df9, type: 3}
 --- !u!1 &1887937218
 GameObject:
@@ -2443,8 +2463,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1911294507}
+  - component: {fileID: 1911294508}
   m_Layer: 0
-  m_Name: CIrcles
+  m_Name: CIrcles Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2466,6 +2487,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1911294508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911294506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74606c0d9f9d87648b5accb8153b2d42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  circles:
+  - {fileID: 26795380}
 --- !u!1 &1937577254
 GameObject:
   m_ObjectHideFlags: 0

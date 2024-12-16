@@ -9,6 +9,7 @@ TagManager:
   - Devi
   - PortalAudio
   - Enemy
+  - CIrcle
   layers:
   - Default
   - TransparentFX
