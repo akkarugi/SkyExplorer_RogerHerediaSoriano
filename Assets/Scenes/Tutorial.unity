@@ -307,6 +307,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 59521597}
     - target: {fileID: 1325949556365859376, guid: fb78ea0189d6ad54c95e344c1360f07f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1325949556365859376, guid: fb78ea0189d6ad54c95e344c1360f07f, type: 3}
       propertyPath: fuelSlider
       value: 
       objectReference: {fileID: 59521598}
@@ -320,6 +324,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2611394148437104525, guid: fb78ea0189d6ad54c95e344c1360f07f, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2901132056299112124, guid: fb78ea0189d6ad54c95e344c1360f07f, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5390801103611514853, guid: fb78ea0189d6ad54c95e344c1360f07f, type: 3}
@@ -376,6 +384,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5390801103611514853, guid: fb78ea0189d6ad54c95e344c1360f07f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5915312172545821139, guid: fb78ea0189d6ad54c95e344c1360f07f, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6074884271696862131, guid: fb78ea0189d6ad54c95e344c1360f07f, type: 3}
@@ -795,10 +807,7 @@ MonoBehaviour:
     Space to accelerate and C to
     decelerate.
 
-    Use Z to recover the fuel.
-
-    And 1, 2, 3, 4 to change the
-    camera view'
+    And 1, 2, 3, 4 to change the camera view'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -825,7 +834,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60.7
+  m_fontSize: 62.85
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -861,7 +870,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -908.2629, w: -267.03247}
+  m_margin: {x: 0, y: 0, z: -908.2629, w: -309.12982}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2354,10 +2363,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuCanvas: {fileID: 1017280355}
-  isle1RespawnPoint: {fileID: 0}
-  isle2RespawnPoint: {fileID: 0}
-  isle3RespawnPoint: {fileID: 0}
-  activeCanvases: []
 --- !u!4 &1454509731
 Transform:
   m_ObjectHideFlags: 0

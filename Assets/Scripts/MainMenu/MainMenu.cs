@@ -9,7 +9,9 @@ public class MainMenu : MonoBehaviour
     {
    
         UnityEngine.SceneManagement.SceneManager.LoadScene("Isle1");
-    
+        GameManager.Instance.mapsCollected = 0;
+        GameManager.Instance.chestsOpened = 0;
+
     }
 
     public void ExitGame()
