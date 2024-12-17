@@ -1,0 +1,4087 @@
+fileFormatVersion: 2
+guid: c13806d60b25c5d46919053fa4e45195
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ed842dd23e6b049881fd30c4bcbb5b
+      internalID: 947600808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 350
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beee84c0375e883439eb42ee3034c488
+      internalID: 421478512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 350
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074f5cf6796e97047b90ab95a27e4325
+      internalID: 1889064310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 350
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227bbc2d20dd0ff41bd372703f502ec9
+      internalID: 2121158310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 350
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf61d9a5c90674842a6f37a7ac3ef5fe
+      internalID: -805109312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 350
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e510c5664ed4424095d99e9b9dc77cb
+      internalID: -1698541463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_6
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 350
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545721f4d5524924a95ae4a6be7d1505
+      internalID: 1453631061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_7
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 350
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f32603d60968214592c7de93abb606f
+      internalID: -455446737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_8
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 350
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2e546f20afc834c980a48453bc7a66
+      internalID: 811157334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_9
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 350
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e29bddb9819e9740b867faa2ecfe24c
+      internalID: -15741863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_10
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 350
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14040f21f1958a14195f86d4cd055071
+      internalID: 964893347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_11
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 350
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72447621be2fe4b409e782ccb0ad92ad
+      internalID: 745905867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_12
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 350
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fa24c953ee668459e90a5f762a59a3
+      internalID: -668684653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_13
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 350
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3490adc55d7a9469918f7e86d0c1a2
+      internalID: -80959156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_14
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 350
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5587c20464e35bd40940bf8af22df751
+      internalID: -925763888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_15
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 350
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecdba1d316f08e4f9151afc8aa7fa70
+      internalID: 1613435410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_16
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 350
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f0da6894d34d84b9f12060f1e64d7b
+      internalID: -2062810972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_17
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 350
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3badc6101f164a4a9b6d72d714cd28b
+      internalID: -33287817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_18
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 350
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a21575e8ff1f624c8d1b9f1ba16d392
+      internalID: 48514127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_19
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 350
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7245d3158e286f24bbc8953ce2fe6558
+      internalID: -1403625998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ee5be5e083e214c87548dbd40b7d49
+      internalID: -2123353923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_21
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 308
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed33b36077c25e646ae32d7d6bc42566
+      internalID: -103193175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_22
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 308
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b010dc7309805c5459f1ef68bb64233f
+      internalID: -2125209867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_23
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 308
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4388bbc0ba3e8e04bb850a46674e2d99
+      internalID: 1547793134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_24
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 308
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12961dc7d1eb6bf4a8dc98011aa4900e
+      internalID: -1606365677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_25
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 308
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71759365c536934e9bb4195ee8c460e
+      internalID: 76238721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_26
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 308
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127e5a8676fc67f4199a3ebb3d0c6a6a
+      internalID: -340230556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_27
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 308
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fb3058cedf1b04abd4ef9e18746f0e
+      internalID: -1788180886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_28
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 308
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae3b794a6895db4dbed7649de8f8f34
+      internalID: 1050326268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_29
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 308
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d4dece3d28e5a428762d1e2f9d379a
+      internalID: -719789455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_30
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 308
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f58816b6ff624e48ba313bb64fb69d2
+      internalID: -877104554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_31
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 308
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79fd714e4bef3743a5e783a98ccce07
+      internalID: -1618409876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_32
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 308
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b6325064d0b8e498927080653abaac
+      internalID: 1406526007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_33
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 308
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c834d91544d184c41b23d10f03afe173
+      internalID: 569275525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_34
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 308
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec39ac315c0909459f2c3df3c6405a6
+      internalID: -888512862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_35
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 308
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d09cdd69ab414d4db22097d9410c749
+      internalID: 2018551538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_36
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 308
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc3e05ed9ee3cc4b9229155d3f2cebc
+      internalID: 1219809192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_37
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 308
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f396df7a46beda8408490a9bd7297133
+      internalID: -610057198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_38
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 308
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2768adf86002ed46ad2e5dd895765d4
+      internalID: 2117125144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_39
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 308
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974ce44820883c24694ed787c7e750d1
+      internalID: 791777397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94572fb829282d49bc591565b1d44aa
+      internalID: 266912732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_41
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 266
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f7a76c8e0c92f47bed275430d5830f
+      internalID: 291133788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_42
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 266
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fed968eb16fb541aaa132ee8a45742
+      internalID: 1982661723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_43
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 266
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b09badef8d7a148a90de8376459538
+      internalID: -1748688891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_44
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 266
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81000e01713a97e4da41566dc023cadf
+      internalID: 127901946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_45
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 266
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84056d8105672b42aace4049d0754df
+      internalID: -359172724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_46
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 266
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7e252945806e746b63854a9afb7ab6
+      internalID: -1950114282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_47
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 266
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493995bf55d8d5b4bbc0e0df781337c4
+      internalID: -1537229847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_48
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 266
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce7c55f6df96a74cbcdaec98293f284
+      internalID: 17546938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_49
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 266
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1429883f25b464eb8030aeb76ce66f
+      internalID: -826147274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_50
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 266
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33e4e6ceeedb96438151a7e831a2bef
+      internalID: 2050839451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_51
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 266
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c68562e0b895a42922d4460652e5fc
+      internalID: 1579793385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_52
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 266
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25baef8e1be3a9243a1b61943918dc60
+      internalID: 1952432735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_53
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 266
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0217004a2b1be44803001e6000a85d
+      internalID: -1545706939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_54
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 266
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2cd75127aa60540910474272c3d976
+      internalID: -1057919961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_55
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 266
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8284bcdef296274498bcaf2b90bd6adb
+      internalID: 1637859395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_56
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 266
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7c0592036377c4b8e3d51cd737b3c0
+      internalID: -2099292921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_57
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 266
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d3da730a52c354a82ed8589d9f3250
+      internalID: -308058787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_58
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 266
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92ad00698f6dfd44bb170c4deeae8a4
+      internalID: -1303530663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_59
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 266
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262afa42c58847344bea07e968d68cd7
+      internalID: -327764076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908ef312803242b49ac204e917f15baa
+      internalID: -1009350335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_61
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 224
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a057366e779684b49b8d17242ef33e1f
+      internalID: 375187530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_62
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 224
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf87423cee30b141aa126b66b806cbf
+      internalID: -2048381363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_63
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 224
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d5b55d3149d5d43bb32e8774f17032
+      internalID: -183999166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_64
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 224
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773e5c103262bba4084c4dc92c523f23
+      internalID: 1122865322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_65
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 224
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0962aa9b319ce1e4b87eff6d06b73fa9
+      internalID: 333023260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_66
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 224
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0683bf57f60f641a2b7cdc137926d6
+      internalID: -1719030968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_67
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 224
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb03fd6cb2d0f145bd00a413bdc5348
+      internalID: 8437255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_68
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 224
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4f074ddef7ad54fba4f63433f14b29
+      internalID: -108262725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_69
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 224
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1549007170d4b1d4ca7dc96f554e355f
+      internalID: -1246275533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_70
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 224
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e8cc5233663f643930dd1f9122e18e
+      internalID: -1701113639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_71
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 224
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6148ac265dc8743aecef88b03e9992
+      internalID: 1926456710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_72
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 224
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ef0c84cf83fe44694a672a26b329cb
+      internalID: 1579871519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_73
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 224
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55ceaaf3b8b8bb4daa7f08e8ed198e9
+      internalID: 1275640245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_74
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 224
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca99a55823dfe4547a7926eb41f6e129
+      internalID: -1805225271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_75
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 224
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7d834b952216a4c951af5dbcab1b7e
+      internalID: 1522968937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_76
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 224
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f40ff5eb6c8e84bb57ee3c92ebb20f
+      internalID: -467468122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_77
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 224
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45984c57700e6b841add102fdd68e248
+      internalID: 1056893267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_78
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 224
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f63b8cf6c451741ae4e22699522218
+      internalID: 2120759173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_79
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 224
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5aff9773b96c1542938a41480e81c8b
+      internalID: -1711392674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 182
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fff8560941ff4c4b90b743245cda709
+      internalID: 1397862596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_81
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 182
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8180c8ebb50e34c876d4c576f3e3b2
+      internalID: -1930231151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_82
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 182
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678de182d3eb9e043b578da9388281bd
+      internalID: -2010513593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_83
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 182
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e69426a14c07d145aaf10d1f5a2fac9
+      internalID: 885077232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_84
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 182
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f512636065f8d64fb015354c57a8986
+      internalID: -1175643720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_85
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 182
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47710de0eb05c043bfc04df0264ca62
+      internalID: 1456981806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_86
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 182
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1554385f0f0a740abfe6ed784ed1e6
+      internalID: -980404552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_87
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 182
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bab29a49b74f654680da1258037d980
+      internalID: 1195368088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_88
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 182
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8edd23c7018de04097273ce57b1abd6
+      internalID: 338149756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_89
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 182
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f53a6b5ada00146be0c94f49b9da29
+      internalID: 1432662110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_90
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 182
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6675fca516b4d419d7a78cd4437563
+      internalID: -676549985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_91
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 182
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b0830581e04b042a518cbb7f763db3
+      internalID: -103673697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_92
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 182
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187464de5881c4c41a94e93b838dbb34
+      internalID: -1611976435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_93
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 182
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0054b653fce815a44bbf9baf1f01eeb5
+      internalID: 1671011898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_94
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 182
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c2e7edaac490c44957bf808a0712e7
+      internalID: 902180427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_95
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 182
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029ed3bb592d4ba488090ac186fe692a
+      internalID: -42171507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_96
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 182
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7483268476dcc5447809932d078ca64f
+      internalID: 1129956799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_97
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 182
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d737fdad664ef4aab926148f3d8727
+      internalID: 1794486481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_98
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 182
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac03dc182e1c9eb438caa5fa8fa22af9
+      internalID: 89772607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_99
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 182
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42810237c9bc1e94ab9bc216c9601452
+      internalID: 1004686198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4babeb678d2b445b2cec0fd19e4e35
+      internalID: -1001508050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_101
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 140
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49d26ab6c1057c4f9bc8700185c3ff5
+      internalID: -2095865757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_102
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 140
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f70477ebad40d6469ccd4080ef8fafa
+      internalID: -1785875746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_103
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 140
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca73a8b4be08fc439ec345cf33e78a1
+      internalID: -1745286136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_104
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 140
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee4db6edad42cc469abb15942c554e1
+      internalID: 1976302462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_105
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 140
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e56e03950121764491a0a57e734062e
+      internalID: -1530884667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_106
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 140
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7b86d062126fb408034b4e278ab031
+      internalID: 37938637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_107
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 140
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36a01207e9314e41a70d4d189111984
+      internalID: 1808117230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_108
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 140
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f4bf38b3ccd574cb11d9b6701f8ae2
+      internalID: -1266542011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_109
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 140
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce8dd3cfcd70424a89c691f8f20a51c
+      internalID: -1846026141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_110
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 140
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41b20bf166d235449cd73d19bd54b13
+      internalID: 1986430325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_111
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 140
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8324a33448591304e9eb93ce9ac82295
+      internalID: -655727069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_112
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 140
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6193b6160343675498bb29d0b142f723
+      internalID: 123920072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_113
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 140
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88484e47fee0807409523a50896fcd30
+      internalID: 995961303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_114
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 140
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d3bb67a9ed01b419749cc1a4c0e21e
+      internalID: 1591564009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_115
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 140
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b61c09608a51304ebf5bad6cdf7bd0d
+      internalID: -419348785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_116
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 140
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10402456f36fac04489a4084b57a6419
+      internalID: -1412357779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_117
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 140
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3778edae69fff474fb0e660799e4dc12
+      internalID: 2103756499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_118
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 140
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f29c5efe775ccc40bbab38301759796
+      internalID: 1917835591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_119
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 140
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8bb38710bfe554a9f120ab88fd02cc
+      internalID: -1913152412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5774c36ddefd0fb4592475c14d983591
+      internalID: 1400057969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_121
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 98
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04e3a12550849744b1c78ff741e777c
+      internalID: -1774635291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_122
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 98
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d357b92f969f0b45af736990464d9ac
+      internalID: 1511939890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_123
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 98
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609cd19b83aca5e4f9f233a8919680ea
+      internalID: -797823372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_124
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 98
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e875b2abf274346880354cab3747c2
+      internalID: 1470820081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_125
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 98
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9607f5a62550fe84f97bca1c12e58cc2
+      internalID: 113729749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_126
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 98
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f8e8864aac2e0459f93eb246884e09
+      internalID: 1195586526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_127
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 98
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd53e68e6af0200438dd61d96b2cab8c
+      internalID: 715760827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_128
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 98
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0c3edb8690d9f4caf5ad4e7ff0c713
+      internalID: -1917794391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_129
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 98
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6394e3d78df14dc4fa41104bc6a84f03
+      internalID: 2081622881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_130
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 98
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2f61f31ab738b4da9fe084d9fa2452
+      internalID: 1455901983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_131
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 98
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2dbfa83a1284246842361b15af25fa
+      internalID: -786603688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_132
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 98
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abdaa135723f0241b6ac417c24e764d
+      internalID: -1010417734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_133
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 98
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c62682a071cbe4e8d0ae30396fb192
+      internalID: -1047649452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_134
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 98
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103e277a50662bd4d814094daf7784f0
+      internalID: 1046431323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_135
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 98
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef66aa1f48d4e14d91254de1ed986ef
+      internalID: 611768559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_136
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 98
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d171d52a0c699e4da059f44b55fad52
+      internalID: -473517372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_137
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 98
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06b6c867e2e6054392e5c476498aa15
+      internalID: 753389516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_138
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 98
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c7c83b7c3317f4eb4807c357d85171
+      internalID: 658605971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_139
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 98
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bc9988423d0bd4bbe57a8a134a75df
+      internalID: -1186376131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec7205089d5b724587884da3064963c
+      internalID: 298359802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_141
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 56
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9647a6ecb35d6e943b1ccc1fbcf25944
+      internalID: -1555727574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_142
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 56
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe6686045978db44a7fcc1fb9c5c9da
+      internalID: -1088753865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_143
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 56
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d865e1bdfddfcf441908b74137ba0b53
+      internalID: -1689134000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_144
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 56
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc22ef906150804483793d8e01520c0
+      internalID: -1880191967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_145
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 56
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f91bc7d48708844c8c44bda267c5f09
+      internalID: 377726433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_146
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 56
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea8fb1abeb205d41b82119dfaed5046
+      internalID: -497355154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_147
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 56
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24af2bf328350940bd9077b7e395401
+      internalID: -737406259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_148
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 56
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e03b8fda1e6b343b6ce02ff25468be
+      internalID: -989517855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_149
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 56
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6a58b696f06f041b4a39ac1f4ba82f
+      internalID: 1584977721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_150
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 56
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bbe232b46c55d41bd064e911d33550
+      internalID: 281816456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_151
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 56
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a936b8f8cb561b64e89ccbdbaad60418
+      internalID: -295775854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_152
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 56
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0826ad65f76c4a4bb073b50af6f05d0
+      internalID: 1028170767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_153
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 56
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd79d5b5b0504e3469fda45a717d33cb
+      internalID: 1057458561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_154
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 56
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f96b5d7e244695419f3ac6804c0374c
+      internalID: -503879701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_155
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 56
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc917064b44932b4c8cbd69f2eadc9a8
+      internalID: 1213374940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_156
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 56
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776f70db236d728418fcea7b1847a065
+      internalID: -1937412971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_157
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 56
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87f3c0171fae1d42bb4c69cedc59c32
+      internalID: 968195676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_158
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 56
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc541a34b7319c4bbe37355d3b07699
+      internalID: 1635594223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_159
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 56
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667a4c611f24565419cba4a45021021b
+      internalID: 1676527711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3463bbec02041b4c90065dbf9ea0962
+      internalID: -60500051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_161
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 14
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6885d98460edb064595020b747cb330d
+      internalID: -1400752275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_162
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 14
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bce21b3bf344741a39c10d875bce32
+      internalID: -259349561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_163
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 14
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1ad20168bf7a0479b9190f13e9265e
+      internalID: -359477507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_164
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 14
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918bbbc62e8be8441b50a426fde9bc16
+      internalID: -869457251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_165
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 14
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22abf6cd7550e9745af25743f9534caa
+      internalID: -1463468893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_166
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 14
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e75abd7955420488b9c92a9a5a586c
+      internalID: 43526412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_167
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 14
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88488b86e669ad54a979987870e0cab7
+      internalID: -1553865661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_168
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 14
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca660bb0e72b0294584315c1c735d277
+      internalID: -1137002961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_169
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 14
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd0d3ac7f7977649a8786a6b33e01f9
+      internalID: -312775410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_170
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 14
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0800e9e81e45e47aabc5409b72d26e
+      internalID: 1082744087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_171
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 14
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa663c3c514fb44ca6c17fb8c26a10d
+      internalID: 2087391749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_172
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 14
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76082376cdac494458b86e9a527b32d2
+      internalID: -39081981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_173
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 14
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b87a62537a3ec441aff4fa0fe940260
+      internalID: 1430612316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_174
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 14
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4fe874dcf5b8b4a99bef5ce52b4d28
+      internalID: -537974167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_175
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 14
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492048f0eae6c0e4c9472926c2e84f8d
+      internalID: -2103769462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_176
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 14
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03acb1ee6d3b454c9ccbb2202623f2c
+      internalID: -1911680355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_177
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 14
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82dc269c161b2e941b25818a516a2b1a
+      internalID: 9511681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_178
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 14
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c08a8d82c5826409bb757759055479
+      internalID: -1486012254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKYEXPLORERMAP_179
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 14
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcb7b51a5b186348b934ac1cc1e48f1
+      internalID: -1331561299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SKYEXPLORERMAP_0: 947600808
+      SKYEXPLORERMAP_1: 421478512
+      SKYEXPLORERMAP_10: 964893347
+      SKYEXPLORERMAP_100: -1001508050
+      SKYEXPLORERMAP_101: -2095865757
+      SKYEXPLORERMAP_102: -1785875746
+      SKYEXPLORERMAP_103: -1745286136
+      SKYEXPLORERMAP_104: 1976302462
+      SKYEXPLORERMAP_105: -1530884667
+      SKYEXPLORERMAP_106: 37938637
+      SKYEXPLORERMAP_107: 1808117230
+      SKYEXPLORERMAP_108: -1266542011
+      SKYEXPLORERMAP_109: -1846026141
+      SKYEXPLORERMAP_11: 745905867
+      SKYEXPLORERMAP_110: 1986430325
+      SKYEXPLORERMAP_111: -655727069
+      SKYEXPLORERMAP_112: 123920072
+      SKYEXPLORERMAP_113: 995961303
+      SKYEXPLORERMAP_114: 1591564009
+      SKYEXPLORERMAP_115: -419348785
+      SKYEXPLORERMAP_116: -1412357779
+      SKYEXPLORERMAP_117: 2103756499
+      SKYEXPLORERMAP_118: 1917835591
+      SKYEXPLORERMAP_119: -1913152412
+      SKYEXPLORERMAP_12: -668684653
+      SKYEXPLORERMAP_120: 1400057969
+      SKYEXPLORERMAP_121: -1774635291
+      SKYEXPLORERMAP_122: 1511939890
+      SKYEXPLORERMAP_123: -797823372
+      SKYEXPLORERMAP_124: 1470820081
+      SKYEXPLORERMAP_125: 113729749
+      SKYEXPLORERMAP_126: 1195586526
+      SKYEXPLORERMAP_127: 715760827
+      SKYEXPLORERMAP_128: -1917794391
+      SKYEXPLORERMAP_129: 2081622881
+      SKYEXPLORERMAP_13: -80959156
+      SKYEXPLORERMAP_130: 1455901983
+      SKYEXPLORERMAP_131: -786603688
+      SKYEXPLORERMAP_132: -1010417734
+      SKYEXPLORERMAP_133: -1047649452
+      SKYEXPLORERMAP_134: 1046431323
+      SKYEXPLORERMAP_135: 611768559
+      SKYEXPLORERMAP_136: -473517372
+      SKYEXPLORERMAP_137: 753389516
+      SKYEXPLORERMAP_138: 658605971
+      SKYEXPLORERMAP_139: -1186376131
+      SKYEXPLORERMAP_14: -925763888
+      SKYEXPLORERMAP_140: 298359802
+      SKYEXPLORERMAP_141: -1555727574
+      SKYEXPLORERMAP_142: -1088753865
+      SKYEXPLORERMAP_143: -1689134000
+      SKYEXPLORERMAP_144: -1880191967
+      SKYEXPLORERMAP_145: 377726433
+      SKYEXPLORERMAP_146: -497355154
+      SKYEXPLORERMAP_147: -737406259
+      SKYEXPLORERMAP_148: -989517855
+      SKYEXPLORERMAP_149: 1584977721
+      SKYEXPLORERMAP_15: 1613435410
+      SKYEXPLORERMAP_150: 281816456
+      SKYEXPLORERMAP_151: -295775854
+      SKYEXPLORERMAP_152: 1028170767
+      SKYEXPLORERMAP_153: 1057458561
+      SKYEXPLORERMAP_154: -503879701
+      SKYEXPLORERMAP_155: 1213374940
+      SKYEXPLORERMAP_156: -1937412971
+      SKYEXPLORERMAP_157: 968195676
+      SKYEXPLORERMAP_158: 1635594223
+      SKYEXPLORERMAP_159: 1676527711
+      SKYEXPLORERMAP_16: -2062810972
+      SKYEXPLORERMAP_160: -60500051
+      SKYEXPLORERMAP_161: -1400752275
+      SKYEXPLORERMAP_162: -259349561
+      SKYEXPLORERMAP_163: -359477507
+      SKYEXPLORERMAP_164: -869457251
+      SKYEXPLORERMAP_165: -1463468893
+      SKYEXPLORERMAP_166: 43526412
+      SKYEXPLORERMAP_167: -1553865661
+      SKYEXPLORERMAP_168: -1137002961
+      SKYEXPLORERMAP_169: -312775410
+      SKYEXPLORERMAP_17: -33287817
+      SKYEXPLORERMAP_170: 1082744087
+      SKYEXPLORERMAP_171: 2087391749
+      SKYEXPLORERMAP_172: -39081981
+      SKYEXPLORERMAP_173: 1430612316
+      SKYEXPLORERMAP_174: -537974167
+      SKYEXPLORERMAP_175: -2103769462
+      SKYEXPLORERMAP_176: -1911680355
+      SKYEXPLORERMAP_177: 9511681
+      SKYEXPLORERMAP_178: -1486012254
+      SKYEXPLORERMAP_179: -1331561299
+      SKYEXPLORERMAP_18: 48514127
+      SKYEXPLORERMAP_19: -1403625998
+      SKYEXPLORERMAP_2: 1889064310
+      SKYEXPLORERMAP_20: -2123353923
+      SKYEXPLORERMAP_21: -103193175
+      SKYEXPLORERMAP_22: -2125209867
+      SKYEXPLORERMAP_23: 1547793134
+      SKYEXPLORERMAP_24: -1606365677
+      SKYEXPLORERMAP_25: 76238721
+      SKYEXPLORERMAP_26: -340230556
+      SKYEXPLORERMAP_27: -1788180886
+      SKYEXPLORERMAP_28: 1050326268
+      SKYEXPLORERMAP_29: -719789455
+      SKYEXPLORERMAP_3: 2121158310
+      SKYEXPLORERMAP_30: -877104554
+      SKYEXPLORERMAP_31: -1618409876
+      SKYEXPLORERMAP_32: 1406526007
+      SKYEXPLORERMAP_33: 569275525
+      SKYEXPLORERMAP_34: -888512862
+      SKYEXPLORERMAP_35: 2018551538
+      SKYEXPLORERMAP_36: 1219809192
+      SKYEXPLORERMAP_37: -610057198
+      SKYEXPLORERMAP_38: 2117125144
+      SKYEXPLORERMAP_39: 791777397
+      SKYEXPLORERMAP_4: -805109312
+      SKYEXPLORERMAP_40: 266912732
+      SKYEXPLORERMAP_41: 291133788
+      SKYEXPLORERMAP_42: 1982661723
+      SKYEXPLORERMAP_43: -1748688891
+      SKYEXPLORERMAP_44: 127901946
+      SKYEXPLORERMAP_45: -359172724
+      SKYEXPLORERMAP_46: -1950114282
+      SKYEXPLORERMAP_47: -1537229847
+      SKYEXPLORERMAP_48: 17546938
+      SKYEXPLORERMAP_49: -826147274
+      SKYEXPLORERMAP_5: -1698541463
+      SKYEXPLORERMAP_50: 2050839451
+      SKYEXPLORERMAP_51: 1579793385
+      SKYEXPLORERMAP_52: 1952432735
+      SKYEXPLORERMAP_53: -1545706939
+      SKYEXPLORERMAP_54: -1057919961
+      SKYEXPLORERMAP_55: 1637859395
+      SKYEXPLORERMAP_56: -2099292921
+      SKYEXPLORERMAP_57: -308058787
+      SKYEXPLORERMAP_58: -1303530663
+      SKYEXPLORERMAP_59: -327764076
+      SKYEXPLORERMAP_6: 1453631061
+      SKYEXPLORERMAP_60: -1009350335
+      SKYEXPLORERMAP_61: 375187530
+      SKYEXPLORERMAP_62: -2048381363
+      SKYEXPLORERMAP_63: -183999166
+      SKYEXPLORERMAP_64: 1122865322
+      SKYEXPLORERMAP_65: 333023260
+      SKYEXPLORERMAP_66: -1719030968
+      SKYEXPLORERMAP_67: 8437255
+      SKYEXPLORERMAP_68: -108262725
+      SKYEXPLORERMAP_69: -1246275533
+      SKYEXPLORERMAP_7: -455446737
+      SKYEXPLORERMAP_70: -1701113639
+      SKYEXPLORERMAP_71: 1926456710
+      SKYEXPLORERMAP_72: 1579871519
+      SKYEXPLORERMAP_73: 1275640245
+      SKYEXPLORERMAP_74: -1805225271
+      SKYEXPLORERMAP_75: 1522968937
+      SKYEXPLORERMAP_76: -467468122
+      SKYEXPLORERMAP_77: 1056893267
+      SKYEXPLORERMAP_78: 2120759173
+      SKYEXPLORERMAP_79: -1711392674
+      SKYEXPLORERMAP_8: 811157334
+      SKYEXPLORERMAP_80: 1397862596
+      SKYEXPLORERMAP_81: -1930231151
+      SKYEXPLORERMAP_82: -2010513593
+      SKYEXPLORERMAP_83: 885077232
+      SKYEXPLORERMAP_84: -1175643720
+      SKYEXPLORERMAP_85: 1456981806
+      SKYEXPLORERMAP_86: -980404552
+      SKYEXPLORERMAP_87: 1195368088
+      SKYEXPLORERMAP_88: 338149756
+      SKYEXPLORERMAP_89: 1432662110
+      SKYEXPLORERMAP_9: -15741863
+      SKYEXPLORERMAP_90: -676549985
+      SKYEXPLORERMAP_91: -103673697
+      SKYEXPLORERMAP_92: -1611976435
+      SKYEXPLORERMAP_93: 1671011898
+      SKYEXPLORERMAP_94: 902180427
+      SKYEXPLORERMAP_95: -42171507
+      SKYEXPLORERMAP_96: 1129956799
+      SKYEXPLORERMAP_97: 1794486481
+      SKYEXPLORERMAP_98: 89772607
+      SKYEXPLORERMAP_99: 1004686198
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

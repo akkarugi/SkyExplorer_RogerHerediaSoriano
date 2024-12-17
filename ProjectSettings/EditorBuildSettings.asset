@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FlightLevel.unity
     guid: 69df58496a020a4408b17c17ec7a0310
+  - enabled: 1
+    path: Assets/Scenes/Map.unity
+    guid: 175ca6eb008aec747a41ca33ff0bc8f4
   m_configObjects: {}
