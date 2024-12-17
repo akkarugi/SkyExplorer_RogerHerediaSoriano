@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,8 +10,7 @@ public class GameManager : MonoBehaviour
     public int mapsCollected = 0;
 
     private bool isChangingScene = false;
-    private float timer = 0f;
-    private float delay = 5f; // Tiempo de espera antes de cambiar de escena
+    private float delay = 5f;
 
     private void Awake()
     {
@@ -29,15 +29,22 @@ public class GameManager : MonoBehaviour
         if (chestsOpened >= 3 && !isChangingScene)
         {
             isChangingScene = true;
+            StartCoroutine(LoadWinSceneAfterDelay());
         }
+    }
 
-        if (isChangingScene)
+    private IEnumerator LoadWinSceneAfterDelay()
+    {
+        yield return new WaitForSecondsRealtime(delay);
+
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Win");
+
+        while (!asyncLoad.isDone)
         {
-            timer += Time.deltaTime;
-            if (timer >= delay)
-            {
-                SceneManager.LoadScene("Win");
-            }
+            yield return null;
         }
     }
 }

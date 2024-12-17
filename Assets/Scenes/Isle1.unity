@@ -14647,6 +14647,14 @@ PrefabInstance:
       propertyPath: staminaBar
       value: 
       objectReference: {fileID: 264265065}
+    - target: {fileID: 6312082478196799591, guid: 6728001512217494e889a307a640f6a9, type: 3}
+      propertyPath: m_Height
+      value: 0.7351738
+      objectReference: {fileID: 0}
+    - target: {fileID: 6312082478196799591, guid: 6728001512217494e889a307a640f6a9, type: 3}
+      propertyPath: m_Center.y
+      value: 0.3222025
+      objectReference: {fileID: 0}
     - target: {fileID: 7152015523147022166, guid: 6728001512217494e889a307a640f6a9, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -22298,7 +22306,7 @@ MeshCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
   m_Convex: 0

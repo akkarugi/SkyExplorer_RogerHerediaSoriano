@@ -26,7 +26,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private AudioClip noStaminaClip;
     [SerializeField] private AudioClip jumpClip;
 
-    // Variables internas
     private float currentStamina;
     private bool canSprint = true;
     private bool isGrounded = true;
@@ -35,7 +34,6 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         currentStamina = maxStamina;
-
         staminaBar.maxValue = maxStamina;
         staminaBar.value = currentStamina;
     }
@@ -54,32 +52,26 @@ public class PlayerMovement : MonoBehaviour
 
     private void HandleMovement()
     {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
 
         bool isSprinting = Input.GetKey(KeyCode.LeftShift) && canSprint;
         float currentSpeed = isSprinting ? moveSpeed * sprintMultiplier : moveSpeed;
 
-        // Movimiento
-        Vector3 direction = transform.forward * vertical + transform.right * horizontal;
-        transform.position += direction.normalized * currentSpeed * Time.deltaTime;
+        Vector3 direction = (transform.forward * vertical + transform.right * horizontal).normalized;
 
-        // Animaciones
-        float movementMagnitude = new Vector2(horizontal, vertical).magnitude;
-        animator.SetFloat("MoveSpeed", movementMagnitude, 0.1f, Time.deltaTime);
-
-        // Audio de movimiento
-        if (movementMagnitude > 0)
+        if (direction.magnitude > 0)
         {
+            rb.velocity = new Vector3(direction.x * currentSpeed, rb.velocity.y, direction.z * currentSpeed);
             PlayMovementAudio(isSprinting);
         }
         else
         {
+            rb.velocity = new Vector3(0, rb.velocity.y, 0);
             StopMovementAudio();
         }
 
-        // Consumo de resistencia
-        if (isSprinting && movementMagnitude > 0)
+        if (isSprinting && direction.magnitude > 0)
         {
             DepleteStamina();
         }
@@ -89,10 +81,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
             isGrounded = false;
-
-            // Reproducir sonido de salto
             effectsAudioSource.PlayOneShot(jumpClip);
         }
     }
