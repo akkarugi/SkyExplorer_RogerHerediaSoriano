@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ChestActivator : MonoBehaviour
 {
@@ -8,7 +9,9 @@ public class ChestActivator : MonoBehaviour
     public ChestController chestController;
     public GameObject canvas;
     public ChestCounterUI chestCounterUI;
-    public FuelSystem fuelSystem; // Referencia al sistema de combustible
+
+    [Header("Opcional: Cambiar de escena")]
+    public bool goToWinScene = false;
 
     private bool hasOpenedChest = false;
 
@@ -35,8 +38,8 @@ public class ChestActivator : MonoBehaviour
                 Destroy(openButtonSprite);
                 hasOpenedChest = true;
                 chestCounterUI?.IncrementChestCount();
-                fuelSystem.RefillFuel(); 
-                StartCoroutine(ShowCanvasAfterDelay(2f));
+
+                StartCoroutine(HandlePostChestOpen());
             }
         }
         else
@@ -74,13 +77,20 @@ public class ChestActivator : MonoBehaviour
         }
     }
 
-    private System.Collections.IEnumerator ShowCanvasAfterDelay(float delay)
+    private System.Collections.IEnumerator HandlePostChestOpen()
     {
-        yield return new WaitForSeconds(delay);
+        yield return new WaitForSeconds(2f);
 
         if (canvas != null)
         {
             canvas.SetActive(true);
+        }
+
+        if (goToWinScene)
+        {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            SceneManager.LoadScene("Win");
         }
     }
 }

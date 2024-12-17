@@ -31,7 +31,7 @@ public class FuelSystem : MonoBehaviour
         else if (currentFuel <= 0)
         {
             currentFuel = 0;
-            StopPlane();
+        
             DecreaseThrottle();
         }
 
@@ -81,8 +81,5 @@ public class FuelSystem : MonoBehaviour
         fuelText.text = "Fuel: " + Mathf.Round(currentFuel).ToString() + " L";
     }
 
-    private void StopPlane()
-    {
-        Debug.Log("Fuel is empty! The plane has stopped.");
-    }
+  
 }

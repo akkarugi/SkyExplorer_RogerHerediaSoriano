@@ -31,6 +31,13 @@ public class GameManager : MonoBehaviour
             isChangingScene = true;
             StartCoroutine(LoadWinSceneAfterDelay());
         }
+
+        
+        if (SceneManager.GetActiveScene().name == "Win")
+        {
+            chestsOpened = 0;
+            mapsCollected = 0;
+        }
     }
 
     private IEnumerator LoadWinSceneAfterDelay()

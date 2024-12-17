@@ -2746,6 +2746,7 @@ MonoBehaviour:
   interactKeySprite: {fileID: 498084221}
   teleportTarget: {fileID: 1485672692}
   teleportSound: {fileID: 498084219}
+  soundToStop: {fileID: 922194931}
   objectToDeactivate: {fileID: 1820321397}
   targetCamera: {fileID: 279177384}
   newSkybox: {fileID: 2100000, guid: 656058fe318eb48558d21d66d1a79a2b, type: 2}

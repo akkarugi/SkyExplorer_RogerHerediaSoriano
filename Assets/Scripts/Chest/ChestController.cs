@@ -5,7 +5,7 @@ public class ChestController : MonoBehaviour
 {
     public PlayableDirector chestTimeline;
     public Collider canOpenCollider;
-    public PlayerProximity playerProximity; // Referencia al script PlayerProximity
+    public PlayerProximity playerProximity; 
 
     private bool isChestOpened = false;
 
@@ -16,7 +16,6 @@ public class ChestController : MonoBehaviour
             chestTimeline.Play();
             isChestOpened = true;
 
-            // Detener el sonido de proximidad y reproducir el sonido de abrir el cofre
             playerProximity.StopProximityAudioOnOpen();
             playerProximity.PlayOpenChestAudio();
             Destroy(gameObject, 5);

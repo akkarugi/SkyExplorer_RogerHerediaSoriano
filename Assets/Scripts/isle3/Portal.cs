@@ -5,6 +5,7 @@ public class Portal : MonoBehaviour
     public GameObject interactKeySprite;
     public Transform teleportTarget;
     public AudioSource teleportSound;
+    public AudioSource soundToStop;
     public GameObject objectToDeactivate;
     public Camera targetCamera;
     public Material newSkybox;
@@ -58,6 +59,11 @@ public class Portal : MonoBehaviour
         if (teleportSound != null)
         {
             teleportSound.Play();
+        }
+
+        if (soundToStop != null && soundToStop.isPlaying)
+        {
+            soundToStop.Stop(); 
         }
 
         if (teleportTarget != null && player != null)
