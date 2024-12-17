@@ -16,6 +16,12 @@ public class PlaneMovement : MonoBehaviour
     public float pitch;
     public float yaw;
 
+    public float windStrength = 5f;
+    public float windTurbulence = 1f; 
+    private float windYaw = 0f;
+    private float windPitch = 0f;
+    private float windRoll = 0f;
+
     public float GetThrottle()
     {
         return throttle / 100f;
@@ -35,7 +41,6 @@ public class PlaneMovement : MonoBehaviour
     }
 
     Rigidbody rb;
-    AudioSource engineSound;
 
     [SerializeField] TextMeshProUGUI hud;
     [SerializeField] Transform propella;
@@ -43,7 +48,6 @@ public class PlaneMovement : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
-        engineSound = GetComponent<AudioSource>();
     }
 
     private void HandleInputs()
@@ -66,19 +70,35 @@ public class PlaneMovement : MonoBehaviour
     {
         HandleInputs();
         UpdateHUD();
-
         propella.Rotate(Vector3.right * throttle);
-        engineSound.volume = throttle * 0.01f;
     }
 
     private void FixedUpdate()
     {
+     
         rb.AddForce(transform.forward * maxThrottle * throttle);
         rb.AddTorque(transform.up * yaw * responseModifier);
         rb.AddTorque(transform.right * pitch * responseModifier);
         rb.AddTorque(transform.forward * roll * responseModifier);
 
+       
+        ApplyWindEffect();
+
+        
         rb.AddForce(Vector3.up * rb.velocity.magnitude * lift);
+    }
+
+    private void ApplyWindEffect()
+    {
+        
+        windYaw = Random.Range(-windStrength, windStrength) * windTurbulence; 
+        windPitch = Random.Range(-windStrength, windStrength) * windTurbulence; 
+        windRoll = Random.Range(-windStrength, windStrength) * windTurbulence; 
+
+       
+        rb.AddTorque(transform.up * windYaw);    
+        rb.AddTorque(transform.right * windPitch); 
+        rb.AddTorque(transform.forward * windRoll); 
     }
 
     private void UpdateHUD()

@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Level");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Isle1");
     }
 
     public void ExitGame()

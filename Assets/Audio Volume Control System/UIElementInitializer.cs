@@ -3,9 +3,10 @@ using UnityEngine.UI;
 
 public class UIElementInitializer : MonoBehaviour
 {
-    public enum UIElementType { 
-       SFX_Slider,
-       MUSIC_Slider
+    public enum UIElementType
+    {
+        SFX_Slider,
+        MUSIC_Slider
     }
 
     public UIElementType type;
@@ -18,14 +19,18 @@ public class UIElementInitializer : MonoBehaviour
         {
             case UIElementType.SFX_Slider:
                 slider = GetComponent<Slider>();
-                slider.value = AudioSettings.audioSettings.GetSFXVolume();
+                if (slider != null && AudioSettings.audioSettings != null)
+                {
+                    slider.value = AudioSettings.audioSettings.GetSFXVolume();
+                }
                 break;
             case UIElementType.MUSIC_Slider:
                 slider = GetComponent<Slider>();
-                slider.value = AudioSettings.audioSettings.GetMusicVolume();
+                if (slider != null && AudioSettings.audioSettings != null)
+                {
+                    slider.value = AudioSettings.audioSettings.GetMusicVolume();
+                }
                 break;
         }
-
     }
-
 }
