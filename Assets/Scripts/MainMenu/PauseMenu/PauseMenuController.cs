@@ -64,7 +64,7 @@ public class PauseMenuController : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
-    private void Tutorial()
+    public void Tutorial()
     {
         Time.timeScale = 1f;
         GameManager.Instance.chestsOpened = 0;
@@ -95,6 +95,8 @@ public class PauseMenuController : MonoBehaviour
     public void GetAllMemories()
     {
         GameManager.Instance.chestsOpened = 3;
+         SceneManager.LoadScene("Win");
+
     }
 
     public void GetAllMaps()

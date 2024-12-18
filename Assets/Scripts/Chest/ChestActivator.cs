@@ -90,7 +90,23 @@ public class ChestActivator : MonoBehaviour
         {
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
-            SceneManager.LoadScene("Win");
+
+            // Verificar el número de mapas y cargar la escena adecuada
+            if (GameManager.Instance != null)
+            {
+                if (GameManager.Instance.mapsCollected > 50)
+                {
+                    SceneManager.LoadScene("Win");
+                }
+                else
+                {
+                    SceneManager.LoadScene("NoWin");
+                }
+            }
+            else
+            {
+                Debug.LogError("GameManager.Instance es nulo. Asegúrate de que el GameManager esté en la escena.");
+            }
         }
     }
 }

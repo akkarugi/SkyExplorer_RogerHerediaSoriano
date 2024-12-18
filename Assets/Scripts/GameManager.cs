@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 
     public int chestsOpened = 0;
     public int mapsCollected = 0;
+  
 
     private bool isChangingScene = false;
     private float delay = 5f;
@@ -32,12 +33,13 @@ public class GameManager : MonoBehaviour
             StartCoroutine(LoadWinSceneAfterDelay());
         }
 
-        
+      
         if (SceneManager.GetActiveScene().name == "Win")
         {
             chestsOpened = 0;
             mapsCollected = 0;
         }
+        
     }
 
     private IEnumerator LoadWinSceneAfterDelay()

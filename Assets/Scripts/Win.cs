@@ -5,7 +5,7 @@ public class Win : MonoBehaviour
 {
    
     public string sceneToLoadOnExit = "MainMenu"; 
-    public string sceneToLoadOnViewMap = "Map"; 
+    public string sceneToLoadOnViewMap = " "; 
 
   
     public void LoadMainMenu()

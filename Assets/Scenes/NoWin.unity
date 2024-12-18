@@ -696,7 +696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoadOnExit: MainMenu
-  sceneToLoadOnViewMap: Map
+  sceneToLoadOnViewMap: NoMap
 --- !u!1 &696797225
 GameObject:
   m_ObjectHideFlags: 0
