@@ -28558,6 +28558,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 533977399}
     m_Modifications:
+    - target: {fileID: 227860416728651504, guid: fb78ea0189d6ad54c95e344c1360f07f, type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 377820069783674360, guid: fb78ea0189d6ad54c95e344c1360f07f, type: 3}
       propertyPath: engineSoundClip
       value: 
@@ -28656,7 +28660,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 454615255210147604, guid: fb78ea0189d6ad54c95e344c1360f07f, type: 3}
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4242989047836434859, guid: fb78ea0189d6ad54c95e344c1360f07f, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1266445243212576199, guid: fb78ea0189d6ad54c95e344c1360f07f, type: 3}
