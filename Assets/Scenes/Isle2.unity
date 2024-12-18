@@ -2498,7 +2498,7 @@ PrefabInstance:
     - target: {fileID: 6335221783239671133, guid: fb78ea0189d6ad54c95e344c1360f07f, type: 3}
       propertyPath: m_CustomSkybox
       value: 
-      objectReference: {fileID: 2100000, guid: 51b74d7bad397457d883c5940f7664d8, type: 2}
+      objectReference: {fileID: 2100000, guid: f9f788dd25f46944789bbaa8fcd4bb91, type: 2}
     - target: {fileID: 6924693486201784273, guid: fb78ea0189d6ad54c95e344c1360f07f, type: 3}
       propertyPath: player
       value: 
@@ -14422,7 +14422,7 @@ PrefabInstance:
     - target: {fileID: 4330222660997448820, guid: 6728001512217494e889a307a640f6a9, type: 3}
       propertyPath: m_CustomSkybox
       value: 
-      objectReference: {fileID: 2100000, guid: c494c335823f54b52b2e87e1b7a63a23, type: 2}
+      objectReference: {fileID: 2100000, guid: f9f788dd25f46944789bbaa8fcd4bb91, type: 2}
     - target: {fileID: 4941208632328813710, guid: 6728001512217494e889a307a640f6a9, type: 3}
       propertyPath: chestsOpenedText
       value: 
