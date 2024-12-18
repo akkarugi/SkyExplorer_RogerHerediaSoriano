@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Isle1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 6a5a175eff2086748bfa50ed7158a093
+  - enabled: 1
     path: Assets/Scenes/Isle2.unity
     guid: c0819a2a933f99442b3a2e69e4971876
   - enabled: 1

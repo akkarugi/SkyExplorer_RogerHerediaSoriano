@@ -10,10 +10,10 @@ public class ChestActivator : MonoBehaviour
     public GameObject canvas;
     public ChestCounterUI chestCounterUI;
 
-    [Header("Opcional: Cambiar de escena")]
     public bool goToWinScene = false;
 
     private bool hasOpenedChest = false;
+    private bool sceneLoaded = false;
 
     private void Start()
     {
@@ -37,6 +37,8 @@ public class ChestActivator : MonoBehaviour
                 chestController.OpenChest();
                 Destroy(openButtonSprite);
                 hasOpenedChest = true;
+
+                GameManager.Instance?.IncrementChestsOpened();
                 chestCounterUI?.IncrementChestCount();
 
                 StartCoroutine(HandlePostChestOpen());
@@ -86,12 +88,13 @@ public class ChestActivator : MonoBehaviour
             canvas.SetActive(true);
         }
 
-        if (goToWinScene)
+        if (goToWinScene && !sceneLoaded)
         {
+            sceneLoaded = true;
+
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
 
-            // Verificar el número de mapas y cargar la escena adecuada
             if (GameManager.Instance != null)
             {
                 if (GameManager.Instance.mapsCollected > 50)
@@ -102,10 +105,6 @@ public class ChestActivator : MonoBehaviour
                 {
                     SceneManager.LoadScene("NoWin");
                 }
-            }
-            else
-            {
-                Debug.LogError("GameManager.Instance es nulo. Asegúrate de que el GameManager esté en la escena.");
             }
         }
     }

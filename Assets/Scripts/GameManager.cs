@@ -1,6 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,10 +6,6 @@ public class GameManager : MonoBehaviour
 
     public int chestsOpened = 0;
     public int mapsCollected = 0;
-  
-
-    private bool isChangingScene = false;
-    private float delay = 5f;
 
     private void Awake()
     {
@@ -27,33 +21,20 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (chestsOpened >= 3 && !isChangingScene)
-        {
-            isChangingScene = true;
-            StartCoroutine(LoadWinSceneAfterDelay());
-        }
-
-      
-        if (SceneManager.GetActiveScene().name == "Win")
+        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Win")
         {
             chestsOpened = 0;
             mapsCollected = 0;
         }
-        
     }
 
-    private IEnumerator LoadWinSceneAfterDelay()
+    public void IncrementChestsOpened()
     {
-        yield return new WaitForSecondsRealtime(delay);
+        chestsOpened++;
+    }
 
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.None;
-
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Win");
-
-        while (!asyncLoad.isDone)
-        {
-            yield return null;
-        }
+    public void IncrementMapsCollected()
+    {
+        mapsCollected++;
     }
 }

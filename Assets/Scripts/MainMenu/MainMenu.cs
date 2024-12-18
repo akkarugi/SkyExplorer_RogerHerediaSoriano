@@ -19,12 +19,13 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
         Debug.Log("Game is exiting...");
     }
-    public void Tutorial()
+    public void Tutorial(){
+    SceneManager.LoadScene("Tutorial");
+    }
+    public void Credits()
     {
-    
-
-
-        SceneManager.LoadScene("Tutorial");
+ 
+        SceneManager.LoadScene("Credits");
     }
 
 
