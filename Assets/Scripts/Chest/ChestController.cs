@@ -5,7 +5,7 @@ public class ChestController : MonoBehaviour
 {
     public PlayableDirector chestTimeline;
     public Collider canOpenCollider;
-    public PlayerProximity playerProximity; 
+    public PlayerProximity playerProximity;
 
     private bool isChestOpened = false;
 
@@ -15,7 +15,6 @@ public class ChestController : MonoBehaviour
         {
             chestTimeline.Play();
             isChestOpened = true;
-
             playerProximity.StopProximityAudioOnOpen();
             playerProximity.PlayOpenChestAudio();
             Destroy(gameObject, 5);

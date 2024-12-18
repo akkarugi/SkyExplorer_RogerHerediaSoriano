@@ -4,7 +4,6 @@ using TMPro;
 public class ChestCounterUI : MonoBehaviour
 {
     public TextMeshProUGUI chestsOpenedText;
-    
 
     private void Start()
     {
@@ -13,7 +12,6 @@ public class ChestCounterUI : MonoBehaviour
 
     public void IncrementChestCount()
     {
-        GameManager.Instance.chestsOpened++;
         UpdateChestsOpenedText();
     }
 
@@ -21,7 +19,7 @@ public class ChestCounterUI : MonoBehaviour
     {
         if (chestsOpenedText != null)
         {
-            chestsOpenedText.text = "Memories: " + GameManager.Instance.chestsOpened.ToString() + " / 3";
+            chestsOpenedText.text = "Memories: " + GameManager.Instance.chestsOpened + " / 3";
         }
     }
 }

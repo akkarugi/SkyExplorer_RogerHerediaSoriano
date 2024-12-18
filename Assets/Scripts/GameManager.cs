@@ -3,7 +3,6 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-
     public int chestsOpened = 0;
     public int mapsCollected = 0;
 
@@ -28,13 +27,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void IncrementChestsOpened()
-    {
-        chestsOpened++;
-    }
-
-    public void IncrementMapsCollected()
-    {
-        mapsCollected++;
-    }
+    public void IncrementChestsOpened() => chestsOpened++;
+    public void IncrementMapsCollected() => mapsCollected++;
 }

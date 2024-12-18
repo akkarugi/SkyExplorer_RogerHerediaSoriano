@@ -15,24 +15,26 @@ public class Portal : MonoBehaviour
 
     private void Start()
     {
-        interactKeySprite.SetActive(false);
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        if (interactKeySprite != null)
+        {
+            interactKeySprite.SetActive(false);
+        }
+
+        player = GameObject.FindGameObjectWithTag("Player")?.transform;
     }
 
     private void Update()
     {
-        if (isPlayerInRange)
+        if (isPlayerInRange && Input.GetKeyDown(KeyCode.E))
         {
-            Vector3 direction = (player.position - interactKeySprite.transform.position).normalized;
-            direction.y = 0;
-            interactKeySprite.transform.rotation = Quaternion.LookRotation(direction) * Quaternion.Euler(0, 180, 0);
+            TeleportPlayer();
+            objectToDeactivate?.SetActive(false);
+            ChangeCameraSkybox();
+        }
 
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                TeleportPlayer();
-                DeactivateObject();
-                ChangeCameraSkybox();
-            }
+        if (isPlayerInRange && interactKeySprite != null)
+        {
+            RotateInteractSpriteTowardsPlayer();
         }
     }
 
@@ -41,7 +43,7 @@ public class Portal : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isPlayerInRange = true;
-            interactKeySprite.SetActive(true);
+            interactKeySprite?.SetActive(true);
         }
     }
 
@@ -50,20 +52,16 @@ public class Portal : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isPlayerInRange = false;
-            interactKeySprite.SetActive(false);
+            interactKeySprite?.SetActive(false);
         }
     }
 
     private void TeleportPlayer()
     {
-        if (teleportSound != null)
-        {
-            teleportSound.Play();
-        }
-
+        teleportSound?.Play();
         if (soundToStop != null && soundToStop.isPlaying)
         {
-            soundToStop.Stop(); 
+            soundToStop.Stop();
         }
 
         if (teleportTarget != null && player != null)
@@ -72,24 +70,19 @@ public class Portal : MonoBehaviour
         }
     }
 
-    private void DeactivateObject()
-    {
-        if (objectToDeactivate != null)
-        {
-            objectToDeactivate.SetActive(false);
-        }
-    }
-
     private void ChangeCameraSkybox()
     {
         if (targetCamera != null && newSkybox != null)
         {
-            Skybox cameraSkybox = targetCamera.GetComponent<Skybox>();
-            if (cameraSkybox == null)
-            {
-                cameraSkybox = targetCamera.gameObject.AddComponent<Skybox>();
-            }
+            Skybox cameraSkybox = targetCamera.GetComponent<Skybox>() ?? targetCamera.gameObject.AddComponent<Skybox>();
             cameraSkybox.material = newSkybox;
         }
+    }
+
+    private void RotateInteractSpriteTowardsPlayer()
+    {
+        Vector3 direction = (player.position - interactKeySprite.transform.position).normalized;
+        direction.y = 0;
+        interactKeySprite.transform.rotation = Quaternion.LookRotation(direction) * Quaternion.Euler(0, 180, 0);
     }
 }

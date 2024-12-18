@@ -2,31 +2,28 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
-    public GameObject eKeySprite; // Sprite de la tecla "E"
-    public GameObject dialogueCanvas; // Canvas del diálogo
-    public Transform player; // Transform del jugador (para orientar el sprite hacia él)
+    public GameObject eKeySprite;
+    public GameObject dialogueCanvas;
+    public Transform player;
 
-    private bool isPlayerInRange = false; // Si el jugador está dentro del rango
+    private bool isPlayerInRange;
 
     private void Start()
     {
-        // Asegúrate de que los elementos estén inicialmente desactivados
-        eKeySprite.SetActive(false);
-        dialogueCanvas.SetActive(false);
+        eKeySprite?.SetActive(false);
+        dialogueCanvas?.SetActive(false);
     }
 
     private void Update()
     {
-        if (isPlayerInRange)
-        {
-            LookAtPlayer(eKeySprite); // Hace que el sprite de la tecla "E" mire hacia el jugador
+        if (!isPlayerInRange) return;
 
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                // Si el jugador está dentro y presiona "E", activa el diálogo
-                eKeySprite.SetActive(false); // Desactiva el sprite de la tecla "E"
-                dialogueCanvas.SetActive(true); // Activa el Canvas del diálogo
-            }
+        RotateSpriteTowardsPlayer(eKeySprite);
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            eKeySprite?.SetActive(false);
+            dialogueCanvas?.SetActive(true);
         }
     }
 
@@ -34,9 +31,8 @@ public class NPC : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Cuando el jugador entra en el rango, muestra el sprite de la tecla "E"
             isPlayerInRange = true;
-            eKeySprite.SetActive(true);
+            eKeySprite?.SetActive(true);
         }
     }
 
@@ -44,28 +40,18 @@ public class NPC : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Cuando el jugador sale del rango, desactiva el sprite y el Canvas
             isPlayerInRange = false;
-            eKeySprite.SetActive(false);
-            dialogueCanvas.SetActive(false);
+            eKeySprite?.SetActive(false);
+            dialogueCanvas?.SetActive(false);
         }
     }
 
-    private void LookAtPlayer(GameObject sprite)
+    private void RotateSpriteTowardsPlayer(GameObject sprite)
     {
-        if (sprite != null)
-        {
-            // Calcula la dirección hacia el jugador
-            Vector3 direction = (player.position - sprite.transform.position).normalized;
+        if (sprite == null || player == null) return;
 
-            // Calcula la rotación para mirar hacia el jugador
-            Quaternion lookRotation = Quaternion.LookRotation(direction);
-
-            // Ajusta la rotación si es necesario (por ejemplo, invertir el eje)
-            lookRotation *= Quaternion.Euler(0, 180, 0);
-
-            // Aplica la rotación al sprite
-            sprite.transform.rotation = lookRotation;
-        }
+        Vector3 direction = (player.position - sprite.transform.position).normalized;
+        direction.y = 0;
+        sprite.transform.rotation = Quaternion.LookRotation(direction) * Quaternion.Euler(0, 180, 0);
     }
 }

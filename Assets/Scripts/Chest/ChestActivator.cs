@@ -9,7 +9,6 @@ public class ChestActivator : MonoBehaviour
     public ChestController chestController;
     public GameObject canvas;
     public ChestCounterUI chestCounterUI;
-
     public bool goToWinScene = false;
 
     private bool hasOpenedChest = false;
@@ -27,56 +26,37 @@ public class ChestActivator : MonoBehaviour
     {
         if (hasOpenedChest) return;
 
-        if (IsPlayerInCanOpenZone())
+        if (canOpenCollider.bounds.Contains(player.position))
         {
-            ShowOpenButton();
-            LookAtPlayer(openButtonSprite);
+            openButtonSprite?.SetActive(true);
+
+            Vector3 direction = (player.position - openButtonSprite.transform.position).normalized;
+            Quaternion lookRotation = Quaternion.LookRotation(direction) * Quaternion.Euler(0, 180, 0);
+            openButtonSprite.transform.rotation = lookRotation;
 
             if (Input.GetKeyDown(KeyCode.E))
             {
-                chestController.OpenChest();
-                Destroy(openButtonSprite);
-                hasOpenedChest = true;
-
-                GameManager.Instance?.IncrementChestsOpened();
-                chestCounterUI?.IncrementChestCount();
-
-                StartCoroutine(HandlePostChestOpen());
+                OpenChestOnce();
             }
         }
         else
         {
-            HideOpenButton();
+            openButtonSprite?.SetActive(false);
         }
     }
 
-    private bool IsPlayerInCanOpenZone() => canOpenCollider.bounds.Contains(player.position);
-
-    private void ShowOpenButton()
+    private void OpenChestOnce()
     {
-        if (openButtonSprite != null)
-        {
-            openButtonSprite.SetActive(true);
-        }
-    }
+        if (hasOpenedChest) return;
 
-    private void HideOpenButton()
-    {
-        if (openButtonSprite != null)
-        {
-            openButtonSprite.SetActive(false);
-        }
-    }
+        hasOpenedChest = true;
+        chestController.OpenChest();
+        Destroy(openButtonSprite);
 
-    private void LookAtPlayer(GameObject sprite)
-    {
-        if (sprite != null)
-        {
-            Vector3 direction = (player.position - sprite.transform.position).normalized;
-            Quaternion lookRotation = Quaternion.LookRotation(direction);
-            lookRotation *= Quaternion.Euler(0, 180, 0);
-            sprite.transform.rotation = lookRotation;
-        }
+        GameManager.Instance?.IncrementChestsOpened();
+        chestCounterUI?.IncrementChestCount();
+
+        StartCoroutine(HandlePostChestOpen());
     }
 
     private System.Collections.IEnumerator HandlePostChestOpen()
@@ -91,7 +71,6 @@ public class ChestActivator : MonoBehaviour
         if (goToWinScene && !sceneLoaded)
         {
             sceneLoaded = true;
-
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
 

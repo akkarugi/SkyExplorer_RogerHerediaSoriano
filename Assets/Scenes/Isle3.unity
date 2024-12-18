@@ -1020,8 +1020,8 @@ MonoBehaviour:
   m_text: To open the door and find the memory of this island, you will have to pass
     a flight test, go through the portal to start the test.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
+  m_sharedMaterial: {fileID: 5139585571527921658, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3935,8 +3935,8 @@ MonoBehaviour:
   m_text: This is your main plane. Every time you collect a memory, your fuel will
     be refilled. Be careful not to run out, or no one will be able to save you.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
+  m_sharedMaterial: {fileID: 5139585571527921658, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3960,7 +3960,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 49.35
+  m_fontSize: 53.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4582,8 +4582,8 @@ MonoBehaviour:
     will have to go through this level of platforms, go through the portal to start
     your test
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
+  m_sharedMaterial: {fileID: 5139585571527921658, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4717,8 +4717,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Memories: 0'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
+  m_sharedMaterial: {fileID: 5139585571527921658, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5605,8 +5605,8 @@ MonoBehaviour:
     chests like this, there will also be pieces of map that will help you get the
     complete map
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
+  m_sharedMaterial: {fileID: 5139585571527921658, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5630,7 +5630,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48.85
+  m_fontSize: 53.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -7796,8 +7796,8 @@ MonoBehaviour:
   m_text: Hey, if you're new here, I recommend doing the tutorial to learn the controls,
     but if you already know them... let your adventure begin!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
+  m_sharedMaterial: {fileID: 5139585571527921658, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7821,7 +7821,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 49.35
+  m_fontSize: 53.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -8103,6 +8103,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chest
       objectReference: {fileID: 0}
+    - target: {fileID: 7409626152475179349, guid: 504fc9750d5021643af3515f4ccc6cd1, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
+    - target: {fileID: 7409626152475179349, guid: 504fc9750d5021643af3515f4ccc6cd1, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 5139585571527921658, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
+    - target: {fileID: 7409626152475179349, guid: 504fc9750d5021643af3515f4ccc6cd1, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8194,10 +8206,30 @@ PrefabInstance:
       propertyPath: m_CustomSkybox
       value: 
       objectReference: {fileID: 2100000, guid: f9f788dd25f46944789bbaa8fcd4bb91, type: 2}
+    - target: {fileID: 4438797908157237528, guid: 6728001512217494e889a307a640f6a9, type: 3}
+      propertyPath: field of view
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 4941208632328813710, guid: 6728001512217494e889a307a640f6a9, type: 3}
       propertyPath: chestsOpenedText
       value: 
       objectReference: {fileID: 745652937}
+    - target: {fileID: 5430873034250004218, guid: 6728001512217494e889a307a640f6a9, type: 3}
+      propertyPath: runAnim
+      value: 
+      objectReference: {fileID: 7400000, guid: 587fb8efeff01634aa9ce8a5af77911a, type: 3}
+    - target: {fileID: 5430873034250004218, guid: 6728001512217494e889a307a640f6a9, type: 3}
+      propertyPath: idleAnim
+      value: 
+      objectReference: {fileID: 7400000, guid: 852ee86c2cd630c479a702e2db6771d1, type: 2}
+    - target: {fileID: 5430873034250004218, guid: 6728001512217494e889a307a640f6a9, type: 3}
+      propertyPath: jumpAnim
+      value: 
+      objectReference: {fileID: 7400000, guid: 441579d7f72cae545a24352282ac90e0, type: 3}
+    - target: {fileID: 5430873034250004218, guid: 6728001512217494e889a307a640f6a9, type: 3}
+      propertyPath: walkAnim
+      value: 
+      objectReference: {fileID: 7400000, guid: 77d7842e2139f594bb31c3c63d1ad4b4, type: 3}
     - target: {fileID: 5430873034250004218, guid: 6728001512217494e889a307a640f6a9, type: 3}
       propertyPath: staminaBar
       value: 
@@ -8462,6 +8494,18 @@ PrefabInstance:
     - target: {fileID: 7098583568834274298, guid: 504fc9750d5021643af3515f4ccc6cd1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409626152475179349, guid: 504fc9750d5021643af3515f4ccc6cd1, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
+    - target: {fileID: 7409626152475179349, guid: 504fc9750d5021643af3515f4ccc6cd1, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 5139585571527921658, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
+    - target: {fileID: 7409626152475179349, guid: 504fc9750d5021643af3515f4ccc6cd1, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7631972634485069382, guid: 504fc9750d5021643af3515f4ccc6cd1, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9980,7 +10024,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.2335197, y: 0.018778814}
   m_AnchorMax: {x: 0.45848033, y: 0.20411526}
-  m_AnchoredPosition: {x: 1, y: 1.5}
+  m_AnchoredPosition: {x: 1.0009766, y: 1.5}
   m_SizeDelta: {x: -272.4317, y: -170.09967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1442525410
@@ -14965,6 +15009,14 @@ PrefabInstance:
       propertyPath: fuelSlider
       value: 
       objectReference: {fileID: 1864407958}
+    - target: {fileID: 3577985857755535060, guid: fb78ea0189d6ad54c95e344c1360f07f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
+    - target: {fileID: 3577985857755535060, guid: fb78ea0189d6ad54c95e344c1360f07f, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5390801103611514853, guid: fb78ea0189d6ad54c95e344c1360f07f, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -16318,8 +16370,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Maps Parts: 0 / ?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
+  m_sharedMaterial: {fileID: 5139585571527921658, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16343,7 +16395,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 71.95
   m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -16712,6 +16764,18 @@ PrefabInstance:
     - target: {fileID: 7098583568834274298, guid: 504fc9750d5021643af3515f4ccc6cd1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409626152475179349, guid: 504fc9750d5021643af3515f4ccc6cd1, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
+    - target: {fileID: 7409626152475179349, guid: 504fc9750d5021643af3515f4ccc6cd1, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 5139585571527921658, guid: 95c4ed1dc96c3ab4ea1890e0349b355b, type: 2}
+    - target: {fileID: 7409626152475179349, guid: 504fc9750d5021643af3515f4ccc6cd1, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7631972634485069382, guid: 504fc9750d5021643af3515f4ccc6cd1, type: 3}
       propertyPath: m_StaticEditorFlags

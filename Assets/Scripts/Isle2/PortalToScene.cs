@@ -12,17 +12,17 @@ public class PortalToScene : MonoBehaviour
 
     private void Start()
     {
-        interactKeySprite.SetActive(false);
+        if (interactKeySprite != null)
+        {
+            interactKeySprite.SetActive(false);
+        }
     }
 
     private void Update()
     {
-        if (isPlayerInRange)
+        if (isPlayerInRange && Input.GetKeyDown(KeyCode.E))
         {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                UsePortal();
-            }
+            UsePortal();
         }
     }
 
@@ -31,7 +31,7 @@ public class PortalToScene : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isPlayerInRange = true;
-            interactKeySprite.SetActive(true);
+            interactKeySprite?.SetActive(true);
         }
     }
 
@@ -40,21 +40,14 @@ public class PortalToScene : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isPlayerInRange = false;
-            interactKeySprite.SetActive(false);
+            interactKeySprite?.SetActive(false);
         }
     }
 
     private void UsePortal()
     {
-        if (teleportSound != null)
-        {
-            teleportSound.Play();
-        }
-
-        if (objectToDeactivate != null)
-        {
-            objectToDeactivate.SetActive(false);
-        }
+        teleportSound?.Play();
+        objectToDeactivate?.SetActive(false);
 
         if (!string.IsNullOrEmpty(sceneToLoad))
         {
