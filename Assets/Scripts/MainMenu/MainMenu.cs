@@ -7,8 +7,8 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame()
     {
-   
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Isle1");
+         Time.timeScale = 1f;
+        SceneManager.LoadScene("Isle1");
         GameManager.Instance.mapsCollected = 0;
         GameManager.Instance.chestsOpened = 0;
 
